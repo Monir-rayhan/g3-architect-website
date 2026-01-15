@@ -35,6 +35,11 @@
 
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* header Style */
 
 
@@ -80,6 +85,31 @@ banner-title{
     font-size: 4rem;
 }
 
+.banner-description{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+
+}
+
 .banner-image{
     width: 100%;
+    margin-bottom: 45px;
+}
+
+/* team & feature related styles */
+
+.teams{
+    align-items: center;
+}
+
+
+/* reponsive media query */
+
+@media screen and (max-width: 576px) {
+    .navbar .nav-links{
+        flex-direction: column;
+    }
+    
 }
